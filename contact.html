@@ -1,154 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Your description">
-    <meta name="author" content="Your name">
-
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-    <meta property="og:site_name" content="" />
-    <!-- website name -->
-    <meta property="og:site" content="" />
-    <!-- website link -->
-    <meta property="og:title" content="" />
-    <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="" />
-    <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="" />
-    <!-- image link, make sure it's jpg -->
-    <meta property="og:url" content="" />
-    <!-- where do you want your post to link to -->
-    <meta name="twitter:card" content="summary_large_image">
-    <!-- to have large image post format in Twitter -->
-
-    <!-- Webpage Title -->
-    <title>Mark Webpage Title</title>
-
-    <!-- Styles -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-
-    <!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
-
-<body data-spy="scroll" data-target=".fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <div class="container">
-
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
-
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
-
-            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-            <div class="navbar-collapse offcanvas-collapse myclass" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item page-scroll" href="project.html">Project Details</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <span class="nav-item social-icons">
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                </span>
-            </div>
-            <!-- end of navbar-collapse -->
-        </div>
-        <!-- end of container -->
-    </nav>
-    <!-- end of navbar -->
-    <!-- end of navigation -->
-
-
-
-    <!-- Contact -->
-    <div id="contact" class="form-1 bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Contact details</h2>
-                    <p class="p-heading">For any type of online project please don't hesitate to get in touch with me. The fastest way is to send me your message using the following email <a class="blue no-line" href="#your-link">contact@domain.com</a></p>
+<body class="main-content light-mode">
+    <main>
+        <section class="section sec5 contact active" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact<span> me</span> <span class="bg-text">my links</span></h2>
                 </div>
-                <!-- end of col -->
-            </div>
-            <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Contact Form -->
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact Me Here</h4>
+                        <p>
+                            The form section is just for show, I have zero idea how backend
+                            works... <br> Here is my contact information
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <span>
+                                        <i class="fa fa-map-marker"></i>
+                                    </span>
+                                     Location :
+                                </div>
+                                <p>Lagos, Nigeria</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <span>
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                     Email:
+                                </div>
+                                <p> godd3101@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <span>
+                                        <i class="fa fa-graduation-cap"></i>
+                                    </span>
+                                     Education :
+                                </div>
+                                <p>Student</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <span>
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                     Mobile Number :
+                                </div>
+                                <p>+234 9061176115</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <span><i class="fa fa-flag"></i></span>
+                                     Languages :
+                                </div>
+                                <p>English</p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://github.com/Gabrielle3101/"><i class="fa fa-github"></i></a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="https://wa.me/message/NMHTBQ3AHOCOJ1/"><i class="fa fa-whatsapp"></i></a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="https://mobile.twitter.com/__simpledev/"><i class="fa fa-twitter"></i></a>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Project details</label>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">Submit</button>
-                        </div>
-                    </form>
-                    <!-- end of contact form -->
-
+                    </div>
+                    <div class="right-contact">
+                        <form class="contact-form" action="">
+                            <div class="input-control ic2">
+                                <input type="text" required placeholder="YOUR NAME" name="" id="">
+                                <input class="last" type="email" required placeholder="YOUR EMAIL" name="" id="">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT" name="" id="">
+                            </div>
+                            <div class="input-control">
+                                <textarea placeholder="Type in a message..." name="" id="" cols="15" rows="8"></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="/about.html" class="main-btn">
+                                    <span class="btn-text">
+                                        SUBMIT
+                                    </span>
+                                    <span class="btn-icon">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <!-- end of col -->
             </div>
-            <!-- end of row -->
-        </div>
-        <!-- end of container -->
+        </section>
+    </main>
+    <div class="controls">
+        <a href="/index.html"><div class="control con-1" data-id="home"><i class="fa fa-home"></i></div></a>
+        <a href="/about.html"><div class="control con-2" data-id="about"><i class="fa fa-user"></i></div></a>
+        <a href="/portfolio.html"><div class="control con-3" data-id="portfolio"><i class="fa fa-folder"></i></div></a>
+        <a href="/contact.html"><div class="control con-5 active-btn" data-id="contact"><i class="fa fa-phone"></i></div></a>
     </div>
-    <!-- end of form-1 -->
-    <!-- end of contact -->
 
+    <div class="theme-btn">
+        <i class="fa fa-adjust"></i>
+    </div>
 
+    <script src="app.js"></script>
 </body>
-
 </html>
