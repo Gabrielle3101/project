@@ -29,144 +29,112 @@
     <title>Web 1 Project</title>
 
     <!-- Styles -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 
     <!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
 </head>
+<body class="main-content light-mode">
 
-<body data-spy="scroll" data-target=".fixed-top">
+    <header class="section sec1 header active" id="home">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <div class="container">
+        <div class="header-content">
 
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
+            <div class="left-header">
 
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
+                <div class="h-shape"></div>
 
-            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <div class="image">
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+                    <img src="/hero.jpg" alt="">
+
+                </div>
+
             </div>
-            <!-- end of navbar-collapse -->
-        </div>
-        <!-- end of container -->
-    </nav>
-    <!-- end of navbar -->
-    <!-- end of navigation -->
 
+            <div class="right-header">
 
-    <!-- Header -->
-    <header id="header" class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-container">
-                        <h1 class="h1-large intro">My name is Maggy.</br> I'm a frontend web developer.</br> Welcome to my page!</h1>
-                        <div class="iconHouse">
-                            <span class="nav-item social-icons">
-                        <span class="fa-stack">
-                            <a href="https://www.facebook.com/edoziemagdalene" target="_blank">
-                            <img src="./images/icons8-facebook.svg" class="icons"/>    
-                            </a>
+                <h1 class="name">
+
+                    Hi, I'm <span class="name">Gabrielle Duere.</span>
+
+                    A Web Developer.
+
+                </h1>
+
+                <p>
+
+                    I'm a Frontend Web Developer. I create beautiful and functional websites.
+
+                    And this is my portfolio website!
+
+                </p>
+
+                <div class="btn-con">
+
+                    <a href="/about.html" class="main-btn">
+
+                        <span class="btn-text">
+
+                            See more
+
                         </span>
-                            <span class="nav-item social-icons">
-                        <span class="fa-stack">
-                            <a href="https://www.instagram.com/princessmaggy7" target="_blank">
-                                <img src="./images/instagram.svg" class="icons"/></a>
-                                </span>
-                            </span>
 
-                            <span class="nav-item social-icons">
-                        
-                                <span class="fa-stack">
-                                    <a href="https://www.twitter.com/princessmaggy7" target="_blank">
-                                       <img src="./images/icons8-twitter.svg" class="icons">
-                                    </a>
-                                </span>
-                            </span>
-                            <span class="nav-item social-icons">
-                        <span class="fa-stack">
-                            <a href="#your-link" target="_blank">
-                                <img src="./images/whatsapp.svg" class="icons"/></a>
-                                </span>
-                            </span>
-                        </div>
+                        <span class="btn-icon">
 
-                        <a class="btn-solid-lg page-scroll" href="#about">Find Out More</a>
-                        <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
+                            <i class="fa fa-chevron-right"></i>
 
-                    </div>
-                    <!-- end of text-container -->
-                </div>
-                <!-- end of col -->
+                        </span>
 
-                <div class="col-md-6 col-sm-12">
-                    <div class="header-img">
-                        <img src="./images/header.jpg" />
-                    </div>
+                    </a>
 
                 </div>
+
+                
+
             </div>
-            <!-- end of row -->
+
         </div>
-        <!-- end of container -->
+
     </header>
-    <!-- end of header -->
-    <!-- end of header -->
 
+    <div class="controls">
 
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Copyright © <a class="no-line" href="#your-link">Princess Maggy</a></p>
+        <a href="/index.html"><div class="control con-1 active-btn" data-id="home"><i class="fa fa-home"></i></div></a>
 
-                    <p class="p-small">HERTECHTRAIL <a class="no-line" href="https://themewagon.com/">COHORT 3 PROJECT</a></p>
+        <a href="/about.html"><div class="control con-2" data-id="about"><i class="fa fa-user"></i></div></a>
 
-                </div>
-                <!-- end of col -->
-            </div>
-            <!-- end of row -->
-        </div>
-        <!-- end of container -->
+        <a href="/portfolio.html"><div class="control con-3" data-id="portfolio"><i class="fa fa-folder"></i></div></a>
+
+        <a href="/contact.html"><div class="control con-5" data-id="contact"><i class="fa fa-phone"></i></div></a>
+
     </div>
-    <!-- end of footer -->
-    <!-- end of footer -->
 
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/scripts.js"></script>
-    <!-- Custom scripts -->
+
+
+    <div class="theme-btn">
+
+        <i class="fa fa-adjust"></i>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+
 </body>
+
+
+
+
 
 </html>
