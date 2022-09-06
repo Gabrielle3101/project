@@ -21,111 +21,184 @@
         <title>About Page</title>
         
         <!-- Styles -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/fontawesome-all.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
         <!-- Favicon  -->
         <link rel="icon" href="images/favicon.png">
     </head>
-    <body data-spy="scroll" data-target=".fixed-top">
-
-         <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <div class="container">
-            
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>  
-
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
-
-            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item page-scroll" href="project.html">Project Details</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
+<body class="main-content light-mode">
+    <main>
+        <section class="section sec2 about active" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span> <span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-con">
+                <div class="left-about">
+                    <h4>Information About Me</h4>
+                    <p>
+                        I am an innovative frontend developer with a year of experience 
+                        freelancing for small sized businesses. <br> <br> I am a positive, 
+                        enthusiastic, and competent frontend developer who, over time, 
+                        has built up a diverse range of skills,qualities & abilities that 
+                        guarantee that I will perform highly in this role.
+                    </p>
+                    <div class="btn-con">
+                        <a href="/portfolio.html" class="main-btn">
+                            <span class="btn-text">
+                                See more
+                            </span>
+                            <span class="btn-icon">
+                                <i class="fa fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">50+</p>
+                            <p class="small-text">Projects <br> Completed</p>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <span class="nav-item social-icons">
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </span>
-            </div> <!-- end of navbar-collapse -->
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">11+</p>
+                            <p class="small-text">months of<br> Experience</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">3+</p>
+                            <p class="small-text">Happy <br>clients</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">3+</p>
+                            <p class="small-text">customer <br> reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="progress-title">
+                            html5
+                        </p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="progress-title">
+                            css3
+                        </p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="progress-title">
+                            JavaScript
+                        </p>
+                        <div class="progress-con">
+                            <p class="prog-text">35%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="progress-title">
+                            node
+                        </p>
+                        <div class="progress-con">
+                            <p class="prog-text">5%</p>
+                            <div class="progress">
+                                <span class="api"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="progress-title">
+                            python
+                        </p>
+                        <div class="progress-con">
+                            <p class="prog-text">10%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="progress-title">
+                            vue
+                        </p>
+                        <div class="progress-con">
+                            <p class="prog-text">1%</p>
+                            <div class="progress">
+                                <span class="vue"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="stat-title">My timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - present</p>
+                    <h5>Freelance Developer <span> - Home</span></h5>
+                    <p>
+                        I now freelance and also work on other skills that I 
+                        can acquire during this period.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021 - 2022</p>
+                    <h5>Intern Frontend Developer <span> - UK Dion</span></h5>
+                    <p>
+                        I was an intern here for 7 months and within this period I 
+                        built my skills in HTML, CSS, and JavaScript. This was my first 
+                        experience in an office environment.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="controls">
+        <a href="/index.html"><div class="control con-1" data-id="home"><i class="fa fa-home"></i> </div></a>
+        <a href="/about.html"><div class="control con-2 active-btn" data-id="about"><i class="fa fa-user"></i></div></a>
+        <a href="/portfolio.html"><div class="control con-3" data-id="portfolio"><i class="fa fa-folder"></i></div></a>
+        <a href="/contact.html"><div class="control con-5" data-id="contact"><i class="fa fa-phone"></i></div></a>
+    </div>
 
+    <div class="theme-btn">
+        <i class="fa fa-adjust"></i>
+    </div>
 
-        
-    <!-- About-->
-    <div id="about" class="basic-1 bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="text-container first">
-                        <h2>Hi there I'm Mark,</h2>
-                        <p>And I love to create beautiful and efficient websites for my customers. I love going through the entire process with the customer from concept, to design and then development and launch</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <div class="text-container second">
-                        <div class="time">2019 - PRESENT</div>
-                        <h6>Freelance Web Developer</h6>
-                        <p>Working happily on my own web projects</p>
-                        <div class="time">2018 - 2019</div>
-                        <h6>Lead Web Developer</h6>
-                        <p>Beautiful project for a major digital agency</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <div class="text-container third">
-                        <div class="time">2017 - 2018</div>
-                        <h6>Senior Web Designer</h6>
-                        <p>Inhouse web designer for ecommerce firm</p>
-                        <div class="time">2016 - 2017</div>
-                        <h6>Junior Web Designer</h6>
-                        <p>Junior web designer for small web agency</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of about -->
-
+    <script src="app.js"></script>
 </body>
+    
 </html>
