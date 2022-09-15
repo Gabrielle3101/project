@@ -1020,8 +1020,8 @@ input, textarea {
         padding: .5rem !important;
      }
      .left-header {
-        margin: .5rem !important;
-        padding: .5rem !important;
+        margin: 0rem !important;
+        padding: 0rem !important;
      }
      .left-header img {
         margin: 0rem !important;
