@@ -1002,7 +1002,7 @@ input, textarea {
 
 @media screen and (max-width: 700px)  {
     .section {
-        padding: 7rem .5rem;
+        padding: 7rem 1rem;
     }
 
     .about-stats .progress-bars {
