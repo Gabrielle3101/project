@@ -1011,4 +1011,20 @@ input, textarea {
     .main-title h2 {
         font-size: 3rem;
     }
+    header {
+        align-items: center;
+        justify-content: center;
+    }
+    .right-header {
+        margin: .5rem !important;
+        padding: .5rem !important;
+     }
+     .left-header {
+        margin: .5rem !important;
+        padding: .5rem !important;
+     }
+     .left-header img {
+        margin: .5rem !important;
+        padding: .5rem !important;
+     }
 }
